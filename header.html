@@ -1,0 +1,15 @@
+<html>
+
+<head>
+<center><img src="logo.png" width="70%" height="70px"></center>
+</head>
+<body bgcolor="gray" text="yellow">
+<p align="right"><span id="datetime"></span>
+<button  onclick="window.print();return false;"/>Print</button>
+</p>
+<script>
+dt=new Date();
+document.getElementById("datetime").innerHTML=dt.toLocaleString();
+</script>
+</body>
+</html>
